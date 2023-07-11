@@ -1,6 +1,7 @@
 package org.example.LeetCode75;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,6 +14,22 @@ import java.util.List;
 public class P1431 {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         List<Boolean> result = new ArrayList<>();
+
+        for(int candy : candies) {
+            if(candy + extraCandies >= Arrays.stream(candies).max().getAsInt()) {
+                result.add(true);
+            } else {
+                result.add(false);
+            }
+        }
         return result;
+    }
+
+    public static void main(String[] args) {
+        P1431 p = new P1431();
+        int[] candies = {4,2,1,1,2};
+        int extraCandies = 1;
+        List<Boolean> result = p.kidsWithCandies(candies, extraCandies);
+        System.out.println(result);
     }
 }
