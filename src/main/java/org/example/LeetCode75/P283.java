@@ -7,13 +7,14 @@ package org.example.LeetCode75;
  */
 public class P283 {
     public void moveZeroes(int[] nums) {
-        for(int i=0; i<nums.length; i++) {
+        for(int i=0; i<nums.length-1; i++) {
             if(nums[i] == 0) {
                 for(int j=i+1; j<nums.length; j++) {
-                    if(nums[j] > 0) {
+                    if(nums[j] != 0) {
                         int tmp = nums[i];
                         nums[i] = nums[j];
                         nums[j] = tmp;
+                        break;
                     }
                 }
             }
@@ -21,7 +22,6 @@ public class P283 {
         /**
          * 0, 1, 0, 3, 12
          * 1, 0, 0, 3, 12
-         *
          */
 
         for(int j=0; j<nums.length; j++) {

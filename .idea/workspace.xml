@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b62bb86-cfce-43cd-996a-a65e0cb7b450" name="변경" comment="문제풀이">
+    <list default="true" id="0b62bb86-cfce-43cd-996a-a65e0cb7b450" name="변경" comment="문제풀이...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LeetCode75/P283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LeetCode75/P283.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,9 @@
       <workItem from="1689130603463" duration="1368000" />
       <workItem from="1689135924358" duration="5602000" />
       <workItem from="1689154390471" duration="1936000" />
-      <workItem from="1689223576474" duration="4281000" />
+      <workItem from="1689223576474" duration="4305000" />
+      <workItem from="1689647982912" duration="22000" />
+      <workItem from="1689670721714" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689224648908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="문제풀이...">
+      <option name="closed" value="true" />
+      <created>1689230544345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689230544345</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="문제풀이" />
+    <MESSAGE value="문제풀이..." />
+    <option name="LAST_COMMIT_MESSAGE" value="문제풀이..." />
   </component>
 </project>
