@@ -18,6 +18,22 @@ public class P643 {
         }
 
         return ans / k;
+
+        // int maxIdx = nums.length - k + 1;
+        // List<Double> sumList = new ArrayList<>();
+        //
+        // if(nums.length == 0 || nums.length < k ) {
+        //     return 0;
+        // }
+        // for(int i=0; i<maxIdx; i++) {
+        //     double sum = 0;
+        //
+        //     for(int j=i; j < i+k; j++) {
+        //         sum += nums[j];
+        //     }
+        //     sumList.add((sum/k));
+        // }
+        // return Collections.max(sumList);
     }
 
     /**
