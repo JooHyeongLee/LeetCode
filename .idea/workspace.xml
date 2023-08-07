@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b62bb86-cfce-43cd-996a-a65e0cb7b450" name="변경" comment="P1207 풀이">
+    <list default="true" id="0b62bb86-cfce-43cd-996a-a65e0cb7b450" name="변경" comment="P206 풀이">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.P206">
+  <component name="RunManager" selected="애플리케이션.P872">
     <configuration name="P1207" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LeetCode75.P1207" />
       <module name="leetcode" />
@@ -91,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P643" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LeetCode75.P643" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.LeetCode75.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LeetCode75.P724" />
       <module name="leetcode" />
@@ -117,20 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P872" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LeetCode75.P872" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.LeetCode75.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="애플리케이션.P872" />
       <item itemvalue="애플리케이션.P1207" />
       <item itemvalue="애플리케이션.P206" />
-      <item itemvalue="애플리케이션.P643" />
       <item itemvalue="애플리케이션.P724" />
       <item itemvalue="애플리케이션.P1732" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.P872" />
         <item itemvalue="애플리케이션.P206" />
         <item itemvalue="애플리케이션.P1207" />
         <item itemvalue="애플리케이션.P724" />
         <item itemvalue="애플리케이션.P1732" />
-        <item itemvalue="애플리케이션.P643" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,11 @@
       <workItem from="1690334386109" duration="1410000" />
       <workItem from="1690336465887" duration="930000" />
       <workItem from="1690346152995" duration="4555000" />
-      <workItem from="1690363485267" duration="1123000" />
+      <workItem from="1690363485267" duration="2127000" />
+      <workItem from="1690424036297" duration="665000" />
+      <workItem from="1690435747958" duration="72000" />
+      <workItem from="1690435855276" duration="1269000" />
+      <workItem from="1691390916763" duration="2363000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -255,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690335591591</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="P206 풀이">
+      <option name="closed" value="true" />
+      <created>1690364627417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690364627417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +285,7 @@
     <MESSAGE value="P1732 풀이" />
     <MESSAGE value="P724 풀이" />
     <MESSAGE value="P1207 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="P1207 풀이" />
+    <MESSAGE value="P206 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="P206 풀이" />
   </component>
 </project>
